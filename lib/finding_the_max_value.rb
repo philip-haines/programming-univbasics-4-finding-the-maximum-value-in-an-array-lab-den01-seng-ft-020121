@@ -1,16 +1,15 @@
 def find_max_value(array)
   i = 0
-  largest_number = -1
+  max_value = -1
   
-  while i < array.length do 
-    
-    if largest_number < array[i]
-      largest_number = array[i]
+  while i < array.length
+  
+    if array[i] > max_value
+      max_value = array[i]
     end
     
-    i += 1
+    i+= 1
   end
   
-   largest_number
+    max_value
 end
-    
